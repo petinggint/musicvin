@@ -94,7 +94,7 @@ update
 packages
 node
 installation
-pprint "\n\n\n\n\ᴍᴜsɪᴄ ᴠɪɴs ꭙ͢ ꝛσʙσᴛ Installation Completed !" "cgreen"
+pprint "\n\n\n\n\ᴛʀᴜᴍ ꭙ͢ ꝛσʙσᴛ Installation Completed !" "cgreen"
 sleep 1
 clear
 
