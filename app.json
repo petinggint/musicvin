@@ -1,7 +1,7 @@
 {
-    "name": "ᴄᴀʟᴠɪɴ ダ ᴍᴜsɪᴄ",
+    "name": "ᴛʀᴜᴍ ダ ᴍᴜsɪᴄ",
     "description": "ᴛᴇʟᴇɢʀᴀᴍ ᴍᴜsɪᴄ ʀᴏʙᴏᴛ.",
-    "logo": "https://files.catbox.moe/zpzvgk.jpg",
+    "logo": "https://files.catbox.moe/b0d174.jpg",
     "keywords": [
     "python3",
     "telegram",
@@ -34,7 +34,7 @@
       },
       "OWNER_ID": {
         "description": "The user id of user whom you would like to add as OWNER.",
-        "value": "5510539512",
+        "value": "7834641788",
         "required": true
       },
       "STRING_SESSION": {
