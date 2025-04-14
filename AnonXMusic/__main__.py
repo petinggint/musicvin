@@ -21,7 +21,7 @@ async def init():
         and not config.STRING4
         and not config.STRING5
     ):
-        LOGGER(__name__).error("Assistant calvin client variables not defined, exiting...")
+        LOGGER(__name__).error("Assistant trum client variables not defined, exiting...")
         exit()
     await sudo()
     try:
@@ -55,7 +55,7 @@ async def init():
     await idle()
     await app.stop()
     await userbot.stop()
-    LOGGER("leonxmusic").info("Stopping Calvin x Music Bot...")
+    LOGGER("leonxmusic").info("Stopping trum x Music Bot...")
 
 
 if __name__ == "__main__":
