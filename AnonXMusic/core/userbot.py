@@ -11,35 +11,35 @@ assistantids = []
 class Userbot(Client):
     def __init__(self):
         self.one = Client(
-            name="VinXAss1",
+            name="trumXAss1",
             api_id=config.API_ID,
             api_hash=config.API_HASH,
             session_string=str(config.STRING1),
             no_updates=True,
         )
         self.two = Client(
-            name="VinXAss2",
+            name="trumXAss2",
             api_id=config.API_ID,
             api_hash=config.API_HASH,
             session_string=str(config.STRING2),
             no_updates=True,
         )
         self.three = Client(
-            name="VinAss3",
+            name="trumXAss3",
             api_id=config.API_ID,
             api_hash=config.API_HASH,
             session_string=str(config.STRING3),
             no_updates=True,
         )
         self.four = Client(
-            name="VinXAss4",
+            name="trumXAss4",
             api_id=config.API_ID,
             api_hash=config.API_HASH,
             session_string=str(config.STRING4),
             no_updates=True,
         )
         self.five = Client(
-            name="VinXAss5",
+            name="trumXAss5",
             api_id=config.API_ID,
             api_hash=config.API_HASH,
             session_string=str(config.STRING5),
@@ -51,13 +51,13 @@ class Userbot(Client):
         if config.STRING1:
             await self.one.start()
             try:
-                await self.one.join_chat("https://t.me/InfoRobotCalvin")
-                await self.one.join_chat("https://t.me/InfoRobotCalvin")
+                await self.one.join_chat("")
+                await self.one.join_chat("")
             except:
                 pass
             assistants.append(1)
             try:
-                await self.one.send_message(config.LOGGER_ID, "ᴀssɪsᴛᴀɴᴛ ᴄᴀʟᴠɪɴ ᴀᴄᴛɪᴠᴇ🔥")
+                await self.one.send_message(config.LOGGER_ID, "ᴀssɪsᴛᴀɴᴛ ᴛʀᴜᴍ ᴀᴄᴛɪᴠᴇ🔥")
             except:
                 LOGGER(__name__).error(
                     "Assistant Akun 1 Gagal Akses Ke Log groups/channel. Tambahin dulu akun assistant lu ke log groups terus lu adminin mek!"
@@ -72,13 +72,13 @@ class Userbot(Client):
         if config.STRING2:
             await self.two.start()
             try:
-                await self.two.join_chat("https://t.me/InfoRobotCalvin")
-                await self.two.join_chat("https://t.me/InfoRobotCalvin")
+                await self.two.join_chat("")
+                await self.two.join_chat("")
             except:
                 pass
             assistants.append(2)
             try:
-                await self.two.send_message(config.LOGGER_ID, "ᴀssɪsᴛᴀɴᴛ ᴄᴀʟᴠɪɴ ᴀᴄᴛɪᴠᴇ🔥")
+                await self.two.send_message(config.LOGGER_ID, "ᴀssɪsᴛᴀɴᴛ ᴛʀᴜᴍ ᴀᴄᴛɪᴠᴇ🔥")
             except:
                 LOGGER(__name__).error(
                     "Assistant Akun 2 Gagal Akses Ke Log groups/channel. Tambahin dulu akun assistant lu ke log groups terus lu adminin mek!"
@@ -93,13 +93,13 @@ class Userbot(Client):
         if config.STRING3:
             await self.three.start()
             try:
-                await self.three.join_chat("https://t.me/InfoRobotCalvin")
-                await self.three.join_chat("https://t.me/InfoRobotCalvin")
+                await self.three.join_chat("")
+                await self.three.join_chat("")
             except:
                 pass
             assistants.append(3)
             try:
-                await self.three.send_message(config.LOGGER_ID, "ᴀssɪsᴛᴀɴᴛ ᴄᴀʟᴠɪɴ ᴀᴄᴛɪᴠᴇ🔥")
+                await self.three.send_message(config.LOGGER_ID, "ᴀssɪsᴛᴀɴᴛ ᴛʀᴜᴍ ᴀᴄᴛɪᴠᴇ🔥")
             except:
                 LOGGER(__name__).error(
                     "Assistant Akun 3 Gagal Akses Ke Log groups/channel. Tambahin dulu akun assistant lu ke log groups terus lu adminin mek!! "
@@ -114,13 +114,13 @@ class Userbot(Client):
         if config.STRING4:
             await self.four.start()
             try:
-                await self.four.join_chat("https://t.me/InfoRobotCalvin")
-                await self.four.join_chat("https://t.me/InfoRobotCalvin")
+                await self.four.join_chat("")
+                await self.four.join_chat("")
             except:
                 pass
             assistants.append(4)
             try:
-                await self.four.send_message(config.LOGGER_ID, "ᴀssɪsᴛᴀɴᴛ ᴄᴀʟᴠɪɴ ᴀᴄᴛɪᴠᴇ🔥")
+                await self.four.send_message(config.LOGGER_ID, "ᴀssɪsᴛᴀɴᴛ ᴛʀᴜᴍ ᴀᴄᴛɪᴠᴇ🔥")
             except:
                 LOGGER(__name__).error(
                     "Assistant Akun 4 Gagal Akses Ke Log groups/channel. Tambahin dulu akun assistant lu ke log groups terus lu adminin mek!! "
@@ -135,13 +135,13 @@ class Userbot(Client):
         if config.STRING5:
             await self.five.start()
             try:
-                await self.five.join_chat("https://t.me/InfoRobotCalvin")
-                await self.five.join_chat("https://t.me/InfoRobotCalvin")
+                await self.five.join_chat("")
+                await self.five.join_chat("")
             except:
                 pass
             assistants.append(5)
             try:
-                await self.five.send_message(config.LOGGER_ID, "ᴀssɪsᴛᴀɴᴛ ᴄᴀʟᴠɪɴ ᴀᴄᴛɪᴠᴇ🔥")
+                await self.five.send_message(config.LOGGER_ID, "ᴀssɪsᴛᴀɴᴛ ᴛʀᴜᴍ ᴀᴄᴛɪᴠᴇ🔥")
             except:
                 LOGGER(__name__).error(
                     "Assistant Akun 5 Gagal Akses Ke Log groups/channel. Tambahin dulu akun assistant lu ke log groups terus lu adminin mek!! "
