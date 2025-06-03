@@ -1,5 +1,5 @@
 {
-    "name": "ᴛʀᴜᴍ ダ ᴍᴜsɪᴄ",
+    "name": "sʏᴀᴀᴀ ダ ᴍᴜsɪᴄ",
     "description": "ᴛᴇʟᴇɢʀᴀᴍ ᴍᴜsɪᴄ ʀᴏʙᴏᴛ.",
     "logo": "https://files.catbox.moe/b0d174.jpg",
     "keywords": [
@@ -34,7 +34,7 @@
       },
       "OWNER_ID": {
         "description": "The user id of user whom you would like to add as OWNER.",
-        "value": "7834641788",
+        "value": "",
         "required": true
       },
       "STRING_SESSION": {
