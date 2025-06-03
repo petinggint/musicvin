@@ -11,35 +11,35 @@ assistantids = []
 class Userbot(Client):
     def __init__(self):
         self.one = Client(
-            name="trumXAss1",
+            name="SyaaaXAss1",
             api_id=config.API_ID,
             api_hash=config.API_HASH,
             session_string=str(config.STRING1),
             no_updates=True,
         )
         self.two = Client(
-            name="trumXAss2",
+            name="SyaaaXAss2",
             api_id=config.API_ID,
             api_hash=config.API_HASH,
             session_string=str(config.STRING2),
             no_updates=True,
         )
         self.three = Client(
-            name="trumXAss3",
+            name="SyaaaXAss3",
             api_id=config.API_ID,
             api_hash=config.API_HASH,
             session_string=str(config.STRING3),
             no_updates=True,
         )
         self.four = Client(
-            name="trumXAss4",
+            name="SyaaaXAss4",
             api_id=config.API_ID,
             api_hash=config.API_HASH,
             session_string=str(config.STRING4),
             no_updates=True,
         )
         self.five = Client(
-            name="trumXAss5",
+            name="SyaaaXAss5",
             api_id=config.API_ID,
             api_hash=config.API_HASH,
             session_string=str(config.STRING5),
@@ -47,7 +47,7 @@ class Userbot(Client):
         )
 
     async def start(self):
-        LOGGER(__name__).info(f"sᴛᴀʀᴛɪɴɢ ᴀssɪsᴛᴀɴᴛ ᴄᴀʟᴠɪɴ...")
+        LOGGER(__name__).info(f"sᴛᴀʀᴛɪɴɢ ᴀssɪsᴛᴀɴᴛ sʏᴀᴀᴀ...")
         if config.STRING1:
             await self.one.start()
             try:
@@ -57,7 +57,7 @@ class Userbot(Client):
                 pass
             assistants.append(1)
             try:
-                await self.one.send_message(config.LOGGER_ID, "ᴀssɪsᴛᴀɴᴛ ᴛʀᴜᴍ ᴀᴄᴛɪᴠᴇ🔥")
+                await self.one.send_message(config.LOGGER_ID, "ᴀssɪsᴛᴀɴᴛ sʏᴀᴀᴀ ᴀᴄᴛɪᴠᴇ🔥")
             except:
                 LOGGER(__name__).error(
                     "Assistant Akun 1 Gagal Akses Ke Log groups/channel. Tambahin dulu akun assistant lu ke log groups terus lu adminin mek!"
@@ -78,7 +78,7 @@ class Userbot(Client):
                 pass
             assistants.append(2)
             try:
-                await self.two.send_message(config.LOGGER_ID, "ᴀssɪsᴛᴀɴᴛ ᴛʀᴜᴍ ᴀᴄᴛɪᴠᴇ🔥")
+                await self.two.send_message(config.LOGGER_ID, "ᴀssɪsᴛᴀɴᴛ sʏᴀᴀᴀ ᴀᴄᴛɪᴠᴇ🔥")
             except:
                 LOGGER(__name__).error(
                     "Assistant Akun 2 Gagal Akses Ke Log groups/channel. Tambahin dulu akun assistant lu ke log groups terus lu adminin mek!"
@@ -99,7 +99,7 @@ class Userbot(Client):
                 pass
             assistants.append(3)
             try:
-                await self.three.send_message(config.LOGGER_ID, "ᴀssɪsᴛᴀɴᴛ ᴛʀᴜᴍ ᴀᴄᴛɪᴠᴇ🔥")
+                await self.three.send_message(config.LOGGER_ID, "ᴀssɪsᴛᴀɴᴛ sʏᴀᴀᴀ ᴀᴄᴛɪᴠᴇ🔥")
             except:
                 LOGGER(__name__).error(
                     "Assistant Akun 3 Gagal Akses Ke Log groups/channel. Tambahin dulu akun assistant lu ke log groups terus lu adminin mek!! "
@@ -120,7 +120,7 @@ class Userbot(Client):
                 pass
             assistants.append(4)
             try:
-                await self.four.send_message(config.LOGGER_ID, "ᴀssɪsᴛᴀɴᴛ ᴛʀᴜᴍ ᴀᴄᴛɪᴠᴇ🔥")
+                await self.four.send_message(config.LOGGER_ID, "ᴀssɪsᴛᴀɴᴛ sʏᴀᴀᴀ ᴀᴄᴛɪᴠᴇ🔥")
             except:
                 LOGGER(__name__).error(
                     "Assistant Akun 4 Gagal Akses Ke Log groups/channel. Tambahin dulu akun assistant lu ke log groups terus lu adminin mek!! "
@@ -141,7 +141,7 @@ class Userbot(Client):
                 pass
             assistants.append(5)
             try:
-                await self.five.send_message(config.LOGGER_ID, "ᴀssɪsᴛᴀɴᴛ ᴛʀᴜᴍ ᴀᴄᴛɪᴠᴇ🔥")
+                await self.five.send_message(config.LOGGER_ID, "ᴀssɪsᴛᴀɴᴛ sʏᴀᴀᴀ ᴀᴄᴛɪᴠᴇ🔥")
             except:
                 LOGGER(__name__).error(
                     "Assistant Akun 5 Gagal Akses Ke Log groups/channel. Tambahin dulu akun assistant lu ke log groups terus lu adminin mek!! "
