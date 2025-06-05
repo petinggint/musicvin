@@ -8,9 +8,9 @@ def start_panel(_):
     buttons = [
         [
             InlineKeyboardButton(
-                text=_["S_B_1"], url=f"https://t.me/InfoRobotCalvin"
+                text=_["S_B_1"], url=f"https://t.me/IyaLek"
             ),
-            InlineKeyboardButton(text=_["S_B_2"], url=f"https://t.me/UcalMeVin"),
+            InlineKeyboardButton(text=_["S_B_2"], url=f"https://t.me/IyaLek"),
         ],
     ]
     return buttons
