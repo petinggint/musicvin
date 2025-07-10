@@ -22,7 +22,7 @@ DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 14400))
 LOGGER_ID = int(getenv("LOGGER_ID", -1002013616754))
 
 # Get this value from @Berlinmusicbot on Telegram by /id
-OWNER_ID = int(getenv("OWNER_ID", 6364520406))
+OWNER_ID = int(getenv("OWNER_ID", 7461183106))
 
 ## Fill these variables if you're deploying on heroku.
 # Your heroku app name
@@ -78,21 +78,21 @@ confirmer = {}
 
 
 START_IMG_URL = getenv(
-    "START_IMG_URL", "https://files.catbox.moe/b0d174.jpg"
+    "START_IMG_URL", "https://files.catbox.moe/2k6n64.jpg"
 )
 PING_IMG_URL = getenv(
-    "PING_IMG_URL", "https://files.catbox.moe/b0d174.jpg"
+    "PING_IMG_URL", "https://files.catbox.moe/2k6n64.jpg"
 )
-PLAYLIST_IMG_URL = "https://files.catbox.moe/b0d174.jpg"
-STATS_IMG_URL = "https://files.catbox.moe/b0d174.jpg"
-TELEGRAM_AUDIO_URL = "https://files.catbox.moe/b0d174.jpg"
-TELEGRAM_VIDEO_URL = "https://files.catbox.moe/b0d174.jpg"
-STREAM_IMG_URL = "https://files.catbox.moe/b0d174.jpg"
-SOUNCLOUD_IMG_URL = "https://files.catbox.moe/b0d174.jpg"
-YOUTUBE_IMG_URL = "https://files.catbox.moe/b0d174.jpg"
-SPOTIFY_ARTIST_IMG_URL = "https://files.catbox.moe/b0d174.jpg"
-SPOTIFY_ALBUM_IMG_URL = "https://files.catbox.moe/b0d174.jpg"
-SPOTIFY_PLAYLIST_IMG_URL = "https://files.catbox.moe/b0d174.jpg"
+PLAYLIST_IMG_URL = "https://files.catbox.moe/2k6n64.jpg"
+STATS_IMG_URL = "https://files.catbox.moe/2k6n64.jpg"
+TELEGRAM_AUDIO_URL = "https://files.catbox.moe/2k6n64.jpg"
+TELEGRAM_VIDEO_URL = "https://files.catbox.moe/2k6n64.jpg"
+STREAM_IMG_URL = "https://files.catbox.moe/2k6n64.jpg"
+SOUNCLOUD_IMG_URL = "https://files.catbox.moe/2k6n64.jpg"
+YOUTUBE_IMG_URL = "https://files.catbox.moe/2k6n64.jpg"
+SPOTIFY_ARTIST_IMG_URL = "https://files.catbox.moe/2k6n64.jpg"
+SPOTIFY_ALBUM_IMG_URL = "https://files.catbox.moe/2k6n64.jpg"
+SPOTIFY_PLAYLIST_IMG_URL = "https://files.catbox.moe/2k6n64.jpg"
 
 
 def time_to_seconds(time):
